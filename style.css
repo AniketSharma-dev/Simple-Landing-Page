@@ -41,7 +41,13 @@ nav {
 nav img{
     transition: all ease 0.3s;
 }
-nav img:hover {
+
+nav span img:hover {
+    margin-left: -5px;
+    scale: 1.1;
+}
+
+nav>img:hover {
     scale: 0.9;
 background-color: #40d1ce;
 }
